@@ -1,5 +1,3 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
-
 Instagram 0.8.6
 ===============
 Embed Instagram photos.
