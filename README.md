@@ -4,7 +4,7 @@ Embed Instagram photos.
 
 <p align="center"><img src="instagram-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to embed a photo
+## How to show a photo
 
 Create an `[instagram]` shortcut. 
 
@@ -18,7 +18,7 @@ The following arguments are available, all but the first argument are optional:
 
 ## Examples
 
-Embedding a photo:
+Showing a photo:
 
     [instagram BISN9ngjV2-]
     [instagram BISN9ngjV2- light - 500]
