@@ -38,4 +38,4 @@ This extension uses [Instagram](https://www.instagram.com). The service provider
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-instagram/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
