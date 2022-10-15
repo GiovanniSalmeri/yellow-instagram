@@ -1,5 +1,5 @@
-Instagram 0.8.6
-===============
+# Instagram 0.8.7
+
 Embed Instagram photos.
 
 <p align="center"><img src="instagram-screenshot.png?raw=true" alt="Screenshot"></p>

@@ -2,7 +2,7 @@
 // Instagram extension, https://github.com/GiovanniSalmeri/yellow-instagram
 
 class YellowInstagram {
-    const VERSION = "0.8.6";
+    const VERSION = "0.8.7";
     public $yellow;         // access to API
     
     // Handle initialisation
