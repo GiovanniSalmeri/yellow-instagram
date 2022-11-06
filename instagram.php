@@ -16,8 +16,8 @@ class YellowInstagram {
         $output = null;
         if ($name=="instagram" && ($type=="block" || $type=="inline")) {
             list($id, $dummy, $style, $width, $height) = $this->yellow->toolbox->getTextArguments($text);
-            if (empty($style)) $style = $this->yellow->system->get("instagramStyle");
-            if (empty($width)) $width = "100%";
+            if (is_string_empty($style)) $style = $this->yellow->system->get("instagramStyle");
+            if (is_string_empty($width)) $width = "100%";
             $css = $this->getInstagramStyle($width, $height);
             $output = "<div class=\"".htmlspecialchars($style)."\" style=\"".htmlspecialchars($css)."\">";
             $output .= "<blockquote class=\"instagram-media\" data-instgrm-captioned style=\"".htmlspecialchars($css)."display:none;\">";
@@ -42,8 +42,8 @@ class YellowInstagram {
         $css = "";
         if (is_numeric($width)) $width .= "px";
         if (is_numeric($height)) $height .= "px";
-        if (!empty($width)) $css .= " width:$width;";
-        if (!empty($height)) $css .= " height:$height;";
+        if (!is_string_empty($width)) $css .= " width:$width;";
+        if (!is_string_empty($height)) $css .= " height:$height;";
         return trim($css);
     }
 }
