@@ -2,7 +2,7 @@
 // Instagram extension, https://github.com/GiovanniSalmeri/yellow-instagram
 
 class YellowInstagram {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -32,7 +32,7 @@ class YellowInstagram {
         $output = null;
         if ($name=="header") {
             $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
-            $output = "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}instagram.js\"></script>\n";
+            $output = "<script defer=\"defer\" src=\"{$assetLocation}instagram.js\"></script>\n";
         }
         return $output;
     }

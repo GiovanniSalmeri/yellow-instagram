@@ -1,8 +1,8 @@
-# Instagram 0.9.1
+# Instagram 1.0.0
 
-Embed Instagram photos.
+Embed Instagram photos. Developed by Giovanni Salmeri.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -40,6 +40,4 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 This extension was previously maintained by Mark Seuffert. Thank you for the good work. This extension uses [Instagram](https://www.instagram.com) by Meta. Thank you for the free service.
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
